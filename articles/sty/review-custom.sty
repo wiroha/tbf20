@@ -1,1 +1,10 @@
 % for user-defined macro
+% 会話調のレイアウト。名前を右寄せ、セリフの開始位置を揃え、さらに命令ごとに間隔をあける。
+\newcommand{\talk}[2]{
+  \noindent
+  \makebox[5.5em][r]{\textbf{#1：}}
+  \begin{minipage}[t]{\dimexpr\textwidth-5.5em\relax}
+    #2
+  \end{minipage}\par
+  \par\addvspace{0.8em}
+}
