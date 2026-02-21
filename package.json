@@ -30,13 +30,16 @@
     "vivliostyle": "grunt vivliostyle",
     "test": "npm run html"
   },
-  "dependencies": {},
   "devDependencies": {
     "grunt": "^1.6.1",
     "grunt-cli": "^1.4.3",
     "grunt-contrib-clean": "^2.0.1",
     "grunt-shell": "^4.0.0",
     "js-yaml": "^4.1.0",
-    "load-grunt-tasks": "^5.1.0"
+    "load-grunt-tasks": "^5.1.0",
+    "textlint": "^15.5.2",
+    "textlint-plugin-review": "^0.4.1",
+    "textlint-rule-preset-ja-spacing": "^2.4.3",
+    "textlint-rule-preset-ja-technical-writing": "^12.0.2"
   }
 }
