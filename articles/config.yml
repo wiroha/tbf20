@@ -25,7 +25,7 @@ language: ja
 booktitle: {name: "同人誌の表紙を頼みたい！と思ったときに読む本", file-as: "同人誌の表紙を頼みたい！と思ったときに読む本"}
 
 # 著者名。「, 」で区切って複数指定できる
-aut: [{name: "ゐろはカルタ編", file-as: "ゐろはカルタヘン"}]
+aut: [{name: "ゐろはカルタ", file-as: "ゐろはカルタ"}]
 
 # 以下はオプション
 # 以下はオプション(autと同じように配列書式で複数指定可能)。
@@ -58,7 +58,7 @@ edt: ["wiroha"]
 # a-pbl, pbl: 出版社（発行所）
 pbl: ゐろはカルタ
 # a-prt, prt: 印刷所
-# prt: ゐろはカルタ
+prt: 日光企画
 # a-red, red: 項目の枠組起草者
 # a-rev, rev: 評論者
 # a-spn, spn: 援助者
@@ -130,7 +130,7 @@ toc: true
 #
 # 表紙に配置し、書籍の影絵にも利用する画像ファイル。省略した場合はnull (画像を使わない)。画像ディレクトリ内に置いてもディレクトリ名は不要(例: cover.jpg)
 # PDFMaker 固有の表紙設定は pdfmaker セクション内で上書き可能
-# coverimage: cover.png
+coverimage: cover.jpg
 #
 # 表紙の後に大扉ページを作成するか。省略した場合はtrue (作成する)
 titlepage: true
@@ -487,4 +487,4 @@ techbooster:
   # texdocumentclassでcover_fit_page=trueを付けるのと同じ
   # cover_fit_page: true
   # 裏表紙画像指定。画像はimages/から探索される
-  # backcoverimage: backcover.jpg
+  backcoverimage: backcover.jpg
